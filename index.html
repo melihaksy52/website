@@ -181,12 +181,12 @@
             .left,
             .right {
                 width: 100%;
-                height: auto;
+                height: 50vh; /* Mobilde yükseklik ayarı */
                 padding: 20px;
             }
             .photo-wrapper {
-                width: 80vw;
-                height: 80vw;
+                width: 60vw; /* Mobilde fotoğraf boyutu */
+                height: 60vw;
             }
             .greeting {
                 font-size: 30px;
@@ -196,6 +196,13 @@
             }
             .title {
                 font-size: 16px;
+            }
+            .sub-title {
+                font-size: 14px;
+            }
+            .social-links {
+                position: static; /* Mobilde sosyal medya linklerini merkeze al */
+                margin-top: 10px;
             }
             .social-links a img {
                 width: 24px;
@@ -240,7 +247,7 @@
     <div class="container">
         <div class="left">
             <div class="photo-wrapper">
-                <img src="resimler/Ben.jpg" alt="Ben">
+                <img src="resimler/Ben.jpg" alt="Melih Can Aksoy">
             </div>
         </div>
         <div class="right">
